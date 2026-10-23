@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "aurora_veil",
+	"version": "${version}",
+	"name": "Aurora Veil",
+	"description": "Northern-lights visuals for Minecraft: a glowing particle ribbon behind you, a spiralling aura, and animated aurora curtains across your screen. Client-side only; works on any server.",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"main": ["dev.auroraveil.AuroraVeil"],
+		"client": ["dev.auroraveil.AuroraVeilClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
